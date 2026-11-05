@@ -1,0 +1,8 @@
+[package]
+name = "sigmaos-state"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Git packaging repository state tracker — SigmaOS component inspired by Arch Linux infrastructure."
+
+[dependencies]
