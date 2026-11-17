@@ -3,7 +3,7 @@ name = "SigmaOS-state"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "state component"
+description = "SigmaOS state component (Arch Linux inspired)"
 upstream = []
 
 [contract]
