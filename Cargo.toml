@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos-state"
+name = "SigmaOS-state"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "Git packaging repository state tracker — SigmaOS component inspired by Arch Linux infrastructure."
+license = "Apache-2.0"
+description = "SigmaOS state component"
+
+[lib]
+name = "state"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
