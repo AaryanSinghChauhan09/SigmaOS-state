@@ -1,9 +1,9 @@
 [package]
 name = "SigmaOS-state"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "Apache-2.0"
-description = "SigmaOS state component"
+description = "SigmaOS state component — Arch package repo state scanner (archlinux/state inspired)"
 
 [lib]
 name = "state"
@@ -13,3 +13,4 @@ path = "src/lib.rs"
 thiserror = "1"
 
 [dev-dependencies]
+tempfile = "3"

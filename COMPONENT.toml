@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-state"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS state component (Arch Linux inspired)"
-upstream = []
+upstream = ["https://github.com/archlinux/state"]
 
 [contract]
-provides = ["component"]
+provides = ["repo-state-index", "pkgbuild-scan", "repo-arch-map"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
+test_evidence = "cargo test: 8 tests pass (state scan, PKGBUILD parse, index queries)"
 next_milestone = "Hardware and runtime integration"
